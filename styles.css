@@ -1,0 +1,162 @@
+body{
+    background-color: #f5f4ef;
+    font-family: "Trebuchet MS", Trebuchet, "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: 14px;
+    color:#000305;
+    line-height: 1.5;
+}
+
+.container{
+    margin: 0 auto;
+    max-width:700px;
+    padding: 15px;
+}
+
+a{
+    color:rgba(138,43,226,1);
+    border-bottom:1px solid #c74350;
+    text-decoration: none;
+    transition:all .25s ease-in;
+}
+
+a:hover,a:focus,a:active{
+    color:white;
+    background-color:#c74350;
+    background-color: transparent;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 1;
+    
+}
+
+h2{
+    font-size: 24px;
+    margin:0;
+    color:orange;
+
+}
+
+h3,h4{
+    font-size: 20px;
+}
+
+h2,h3,h4{
+    font-weight:400;
+}
+
+header,main,footer{
+    padding:15px 0;
+}
+
+header a{
+    color:#050973;
+    border:none;
+    
+}
+
+header a:hover{
+    border-color:transparent;
+}
+
+a:hover,a:focus,a:active{
+    color:#c74350;
+    
+}
+
+header small{
+    font-size: .4em;
+}
+
+.box{
+    background-color: rgb(154,243,175);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.box + .box{
+    margin-top:30px;
+}
+
+.links{
+    padding: 0;
+    padding: 0;
+    list-style:none;
+    display:inline-block;
+}
+
+.links a{
+    display: block;
+    padding:5px 8px;
+    color:inherit;
+    border-bottom:5px solid #f4e3e3;
+}
+
+.links li{
+    border-bottom:1px solid #fff;
+}
+
+.links a:hover,
+.links a:focus,
+.links a:active{
+    color:#fff;
+    background-color:#c74350;
+}
+
+article h3 > a{
+    border:none;
+    color:inherit;
+}
+
+article h4 > a{
+    border:none;
+}
+/*list article+ article */
+.list article:not(:last-child){
+    border-bottom:1px solid #fff;
+    margin-bottom:10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;;
+}
+
+.col{
+    flex: 1 0 30%;
+}
+
+.col--wide{
+    flex:1 0 65%;
+}
+
+
+
+footer h4,footer p{
+    margin: 0;
+}
+
+footer h4{
+    font-weight:400;
+}
+
+footer h4 a{
+    font-weight: 700;
+    border:none;
+}
+
+footer h4 small{
+    font-size: 1rem;
+}
+
+.copyright{
+    text-align:right;
+    margin-top:25px;
+}
+
+
+
+
+
+
